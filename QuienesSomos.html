@@ -30,31 +30,30 @@
 
     <section id="QueHacemos">
 
-<div class="container">
+      <div class="container">
 
-      <div class="row justify-content-center align-items-center vh-100">
-      <div class="col col-lg-6">
-        <p style="font-size:3.0vh;"> ¡Hola! Soy Noelia, creadora de este hermoso emprendimiento que es Tiempo Dulce. Les quiero contar un poco sobre mí y cómo inició este proyecto.
-          Este sueño surgió hace mucho tiempo sin haberme dado cuenta, cuando dibujaba en mis tiempos libres y cocinaba por placer.</p>
-      </div>
-      <div class="col col-lg-6 ">
-        <div class="text-center">
-          <img src="fotos/fondo1.jpg" style="width: 40vh; margin:auto;" class="rounded" alt="...">
+        <div class="row justify-content-center align-items-center" style="padding-top:150px; padding-bottom:150px;">
+          <div class="col col-lg-6">
+            <p style="font-size:3.0vh; padding-bottom:75px;"> ¡Hola! Soy Noelia, creadora de este hermoso emprendimiento que es Tiempo Dulce. Les quiero contar un poco sobre mí y cómo inició este proyecto.
+              Este sueño surgió hace mucho tiempo sin haberme dado cuenta, cuando dibujaba en mis tiempos libres y cocinaba por placer.</p>
+            </div>
+            <div class="col col-lg-6 ">
+              <div class="text-center">
+                <img src="fotos/fondo1.jpg" style="width: 40vh; margin:auto;" class="rounded" alt="...">
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
-</div>
 
     </section>
+
     <section id="Clientes">
       <div class="container-portada vh-100">
                     <div class="capa-gradient"></div>
                     <div class="container">
                       <div class="row justify-content-md-center aling-items-center vh-100">
                         <div class="col align-self-center">
-                          <h1>Titulo</h1>
-                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut metus. Proin venenatis turpis sit amet ante consequat semper. Aenean nunc. Duis iaculis odio id lectus. Integer dapibus justo vitae elit. Nunc luctus, tortor quis iaculis tempus, urna odio iaculis erat, imperdiet lobortis orci lectus at eros. Ut a velit id odio malesuada nonummy. Aenean cursus metus a purus. Duis dapibus odio a enim. Aliquam ut diam sed nisl imperdiet gravida. Proin eget tellus ut ante dignissim dictum. Integer ut justo quis eros feugiat convallis. Praesent massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla egestas, nibh at malesuada nonummy, mi augue condimentum velit, a facilisis tortor ipsum non diam.
-                          </p>
+
                         </div>
                       </div>
                     </div>
@@ -62,6 +61,27 @@
 
       <div class="container-details"></div>
 
+    </section>
+
+    <section id="final">
+      <h2 id="text">Tiempo
+          <span style="display: initial;">De Crear</span>
+          <span>De Soñar</span>
+          <span>De Compartir</span>
+          <span>Dulce</span>
+      </h2>
+      <script type="text/javascript">
+        var text= document.getElementById('text');
+        var word= text.getElementsByTagName('span');
+
+        var i=0;
+        function rotator(){
+          word[i].style.display ='none';
+          i=(i+1) % word.length;
+          word[i].style.display = 'initial';
+        }
+        setInterval(rotator, 800);
+      </script>
     </section>
 
   </body>

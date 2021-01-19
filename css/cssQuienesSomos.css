@@ -1,3 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#final{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fe769c;
+}
+h2{
+  position: relative;
+  color: #FF3A71;
+  width: 80%;
+  font-size: 4.3vh;
+}
+h2 span{
+  color: white;
+  display: none;
+}
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
 #QuienesSomos{
   color: #fe769c;
