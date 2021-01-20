@@ -12,15 +12,12 @@
 }
 h2{
   position: relative;
-  color: #FF3A71;
   width: 80%;
-  font-size: 4.3vh;
 }
 h2 span{
   color: white;
   display: none;
 }
-
 #gradients{
   color:white;
   background: #fe769c;
@@ -51,8 +48,8 @@ h2 span{
   color: white;
   background-color:#fe769c;
 }
-#QueHacemos p{
-
+p{
+  font-size:2.3vh;
 }
 #Clientes{
 color:white;
