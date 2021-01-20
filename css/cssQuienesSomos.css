@@ -21,8 +21,19 @@ h2 span{
   display: none;
 }
 
-
-#Nosotras, #final{
+#gradients{
+  color:white;
+  background: #fe769c;
+  background: -webkit-linear-gradient(bottom, white, #fe769c);
+  background: -o-linear-gradient(bottom, white, #fe769c);
+  background: linear-gradient(to top, white, #fe769c);
+  height: 10vh;
+}
+#Nosotras{
+  background: white;
+  color: #fe769c
+}
+#final{
   color:white;
   background: #fe769c;
   background: -webkit-linear-gradient(bottom, white, #fe769c);
@@ -104,7 +115,7 @@ color:white;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   cursor: pointer;
-  height: 300px;
+  height: 325px;
   margin: 30px;
   padding: 0 20px;
   position: relative;
@@ -120,7 +131,7 @@ color:white;
   }
 }
 .tarjeta.expanded {
-  height: 400px;
+  height: 370px;
 }
 .label {
   margin-top: 30px;
@@ -175,5 +186,5 @@ color:white;
   padding: 0 20px;
 }
 #foto{
-  border-radius: 40%;
+  border-radius: 100%;
 }
