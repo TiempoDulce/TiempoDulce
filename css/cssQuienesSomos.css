@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #final{
   display: flex;
   justify-content: center;
@@ -15,27 +16,25 @@ h2{
   width: 80%;
 }
 h2 span{
-  color: white;
+  color: #fe769c;
   display: none;
 }
 #gradients{
   color:white;
   background: #fe769c;
-  background: -webkit-linear-gradient(bottom, white, #fe769c);
-  background: -o-linear-gradient(bottom, white, #fe769c);
-  background: linear-gradient(to top, white, #fe769c);
+  background: -webkit-linear-gradient(top, #fe769c, #FC243C);
+  background: -o-linear-gradient(top,#fe769c, #FC243C);
+  background: linear-gradient(to bottom, #fe769c, #FC243C);
   height: 10vh;
 }
 #Nosotras{
-  background: white;
-  color: #fe769c
+  background: linear-gradient(to bottom,#FC243C 0%,#FC243C 65%,white 65%,white 100%);
+  color: White;
+
 }
 #final{
-  color:white;
-  background: #fe769c;
-  background: -webkit-linear-gradient(bottom, white, #fe769c);
-  background: -o-linear-gradient(bottom, white, #fe769c);
-  background: linear-gradient(to top, white, #fe769c);
+  background-color:white;
+  color: #FC243C;
 }
 
 
@@ -72,18 +71,6 @@ color:white;
 }
 
 
-.capa-gradient{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: -webkit-linear-gradient(left, black, #fe769c);
-    opacity: 0.5;
-}
-
-.container-details{
-    max-width: 1200px;
-    margin: auto;
-}
 #encabezado{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -114,7 +101,7 @@ h6 {
 .card-container {
 	background-color: #fe769c;
 	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.75);
 	color: white;
 	padding-top: 30px;
 	position: relative;
