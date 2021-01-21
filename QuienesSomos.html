@@ -103,43 +103,43 @@
               </div>
           </div>
         </div>
-    </section>
+        <div class="container" style="color:white">
 
-
-    <section id="Desenlace">
-      <div class="container">
-
-        <div class="row justify-content-center align-items-center" style="padding-top:20px;">
-          <div class="col col-lg-6 text-center">
-            <h2 class="scrollflow -slide-top -opacity"style="font-size: 4.3vh; margin:auto;">Soñar en dulce.</h2> <br>
-            <p class="scrollflow -slide-top -opacity">Sentimos una felicidad inmensa, nos emociona poder aprender con cada pastel, cookie o cupcake. Nos encanta que sueñen en dulce y nos den la oportunidad de crearlo. Pero, si nos dan a elegir la parte favorita del proceso, es recibir sus mensajes llenos de amor, para nosotras es lo mejor poder estar en sus mesas dulces en cada evento y que nos sigan eligiendo. </p>
-              </div>
+          <div class="row justify-content-center align-items-center" style="padding-top:40px; padding-bottom:30px;">
+            <div class="col col-lg-6 text-center">
+              <h2 class="scrollflow -slide-top -opacity"style="font-size: 4.3vh; margin:auto;">Soñar en dulce.</h2> <br>
+              <p class="scrollflow -slide-top -opacity">Sentimos una felicidad inmensa, nos emociona poder aprender con cada pastel, cookie o cupcake. Nos encanta que sueñen en dulce y nos den la oportunidad de crearlo. Pero, si nos dan a elegir la parte favorita del proceso, es recibir sus mensajes llenos de amor, para nosotras es lo mejor poder estar en sus mesas dulces en cada evento y que nos sigan eligiendo. </p>
+                </div>
+            </div>
           </div>
-        </div>
+          <div id="final">
+            <h2 style="font-size: 6.3vh;" id="text">Tiempo
+              <br>
+                <span style="display: initial;">De Crear</span>
+                <span>De Soñar</span>
+                <span>De Compartir</span>
+                <span>Dulce</span>
+            </h2>
+            <script type="text/javascript">
+              var text= document.getElementById('text');
+              var word= text.getElementsByTagName('span');
+
+              var i=0;
+              function rotator(){
+                word[i].style.display ='none';
+                i=(i+1) % word.length;
+                word[i].style.display = 'initial';
+              }
+              setInterval(rotator, 800);
+            </script>
+          </div>
     </section>
 
 
-    <section id="final">
-      <h2 style="font-size: 5.3vh;" id="text">Tiempo
 
-          <span style="display: initial;">De Crear</span>
-          <span>De Soñar</span>
-          <span>De Compartir</span>
-          <span>Dulce</span>
-      </h2>
-      <script type="text/javascript">
-        var text= document.getElementById('text');
-        var word= text.getElementsByTagName('span');
 
-        var i=0;
-        function rotator(){
-          word[i].style.display ='none';
-          i=(i+1) % word.length;
-          word[i].style.display = 'initial';
-        }
-        setInterval(rotator, 800);
-      </script>
-    </section>
+
+
 
   </body>
 </html>

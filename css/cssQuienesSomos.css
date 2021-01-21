@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color: #fe769c;
+}
 #final{
   display: flex;
   justify-content: center;
@@ -21,13 +23,13 @@ h2 span{
 #gradients{
   color:white;
   background: #fe769c;
-  background: -webkit-linear-gradient(top, #fe769c, #FC243C);
-  background: -o-linear-gradient(top,#fe769c, #FC243C);
-  background: linear-gradient(to bottom, #fe769c, #FC243C);
+  background: -webkit-linear-gradient(top, #fe769c, white);
+  background: -o-linear-gradient(top,#fe769c, white);
+  background: linear-gradient(to bottom, #fe769c, white);
   height: 10vh;
 }
 #Nosotras{
-  background: linear-gradient(to bottom,white 0%,white 70%,#fe769c 70%,#fe769c 100%);
+  background: linear-gradient(to bottom,white 0%,white 45%,#fe769c 45%,#fe769c 100%);
   color: #fe769c;
 
 }
