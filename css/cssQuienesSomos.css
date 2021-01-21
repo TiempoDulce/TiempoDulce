@@ -9,14 +9,13 @@
   justify-content: center;
   align-items: center;
   min-height: 30vh;
-  background: #fe769c;
 }
 h2{
   position: relative;
   width: 80%;
 }
 h2 span{
-  color: #fe769c;
+  color: white;
   display: none;
 }
 #gradients{
@@ -28,17 +27,17 @@ h2 span{
   height: 10vh;
 }
 #Nosotras{
-  background: linear-gradient(to bottom,#FC243C 0%,#FC243C 70%,white 70%,white 100%);
-  color: White;
+  background: linear-gradient(to bottom,white 0%,white 70%,#fe769c 70%,#fe769c 100%);
+  color: #fe769c;
 
 }
 #Desenlace{
-  background-color:white;
-  color: #FC243C;
+  background-color:#fe769c;
+  color: white;
 }
 #final{
-  background-color:white;
-  color: #FC243C;
+  background-color:#fe769c;
+  color:#FC243C;
 }
 
 
@@ -103,7 +102,7 @@ h6 {
 }
 
 .card-container {
-	background-color: #fe769c;
+	background-color: #FC243C;
 	border-radius: 5px;
 	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.75);
 	color: white;
