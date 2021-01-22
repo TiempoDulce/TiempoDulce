@@ -20,8 +20,42 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 30vh;
+  min-height: 25vh;
 }
+#Contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 35vh;
+  background: white;
+}
+.rede{
+ width: 10vh;
+ height:10vh;
+ transition: all 0.4s ease-out;
+ border-radius: 50%;
+}
+.rede#plus{
+ background-color: #dd4b39;
+}
+section .red{
+ width: 1025px;
+ height:150px;
+}
+.icone{
+ padding: 18.5px;
+ width: 11vh;
+}
+.rede:hover{
+ cursor: pointer;
+ transform: translateY(-20px);
+ box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+strong{
+  font-weight: 900;
+  font-size: 2.6vh;
+}
+
 h2{
   position: relative;
   width: 80%;
