@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fe769c;
+}
+.letras{
+  font-family: 'Hind Madurai', sans-serif;
+}
+.nombres{
+  font-family: 'Signika', sans-serif;
+}
+.titulo{
+  font-family: 'Arvo', serif;
+  font-weight: 600;
+}
+#final{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+}
+#Contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 35vh;
+  background: white;
+}
+.rede{
+ width: 10vh;
+ height:10vh;
+ transition: all 0.4s ease-out;
+ border-radius: 100%;
+}
+section .red{
+ width: 1025px;
+ height:150px;
+}
+.rede:hover{
+ cursor: pointer;
+ transform: translateY(-20px);
+ box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+strong{
+  font-weight: 900;
+  font-size: 2.6vh;
+}
+
+h2{
+  position: relative;
+  width: 80%;
+  font-family:'Poppins', sans-serif;
+  font-weight: 900;
+}
+h2 span{
+  color: white;
+  display: none;
+}
+#gradients{
+  color:white;
+  background: #fe769c;
+  background: -webkit-linear-gradient(top, #fe769c, white);
+  background: -o-linear-gradient(top,#fe769c, white);
+  background: linear-gradient(to bottom, #fe769c, white);
+  height: 10vh;
+}
+#Nosotras{
+  background: linear-gradient(to bottom,white 0%,white 45%,#fe769c 45%,#fe769c 100%);
+  color: #fe769c;
+
+}
+#Desenlace{
+  background-color:#fe769c;
+  color: white;
+}
+#final{
+  background-color:#fe769c;
+  color:#FC243C;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
+#QuienesSomos{
+  color: #fe769c;
+  background-color:white;
+}
+#QueHacemos{
+  color: white;
+  background-color:#fe769c;
+}
+p{
+  font-size:2.3vh;
+}
+#Clientes{
+color:white;
+}
+.container-portada{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(fondo1.jpg);
+    background-size: 200%;
+    animation: movimiento 20s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+
+#encabezado{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 5.8vh;
+    line-height: 1.05em;
+    text-align: right;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+.card-container {
+	background-color: #FC243C;
+	border-radius: 5px;
+	box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.75);
+	color: white;
+	padding-top: 30px;
+	position: relative;
+	width: 300px;
+	max-width: 100%;
+	text-align: center;
+}
+
+
+.card-container .round {
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 7px;
+}
