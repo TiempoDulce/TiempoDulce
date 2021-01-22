@@ -22,6 +22,9 @@ body{
   align-items: center;
   min-height: 25vh;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 #Contacto{
   display: flex;
   justify-content: center;
