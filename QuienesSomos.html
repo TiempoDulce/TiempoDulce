@@ -23,6 +23,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="jquery-2.1.4.js"></script>
     <title>Acerca de nosotras</title>
@@ -53,13 +57,39 @@
   <body id="cuerpo" style="background:#fe769c">
 
 
-  <div class="load">
-    <div class="container">
-      <div class="row justify-content-md-center aling-items-center vh-100">
-        <div class="col col-lg-12 align-self-center text-center">
-
+  <div class="load" style="color:white;">
+    <div class="container justify-content-md-center aling-items-center vh-100">
+    <div class="row justify-content-md-center" style= "margin:50px;">
+        <div class="col md-4 text-center">
+            <img src="fotos/LogoTiempoDulce.png" width="580px" id="imagen">
         </div>
-      </div>
+    </div>
+    <div class="row justify-content-md-center" style= "margin-top:50px; margin-bottom:100px;">
+        <div class="col md-4 text-center">
+            <p id="eslogan">Compartiendo momentos deliciosos</p>
+        </div>
+    </div>
+    <div class="row justify-content-md-center" style= "margin:50px;">
+        <div class="col md-4 text-center">
+          <a href="https://api.whatsapp.com/send?phone=541122400971">
+            <button type="button" id ="boton" class="btn btn-outline-light w-100 btn-lg" style= "height: 130px;
+            font-size: 50px; ">WhatsApp</button>
+          </a>
+          </div>
+    </div>
+    <div class="row justify-content-md-center" style= "margin:50px;">
+        <div class="col md-4 text-center">
+          <a href="QuienesSomos.html">
+            <button type="button" id ="boton" class="btn btn-outline-light w-100 btn-lg" style= "height: 130px;
+            font-size: 50px; ">Acerca de nosotras</button>
+          </a>
+          </div>
+    </div>
+    <div class="row justify-content-md-center" style= "margin-top:100px; margin-bottom:100px;">
+        <div class="col md-4 text-center">
+            <p id="proximamente">Próximamente catálogo 2021..</p>
+        </div>
+    </div>
     </div>
   </div>
 
@@ -202,7 +232,7 @@
 $(document).ready(function() {
     setTimeout(function() {
         $(".load").fadeOut(500);
-    },500);
+    },200);
 
     setTimeout(function() {
         $(".QSN").fadeIn(1500);
