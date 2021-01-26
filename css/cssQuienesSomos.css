@@ -86,7 +86,7 @@ body{
   font-weight: 600;
 }
 
-#final{
+#final .rotatortext{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +138,7 @@ h2 span{
   height: 10vh;
 }
 #Nosotras{
-  background: linear-gradient(to bottom,white 0%,white 43%,#fe769c 43%,#fe769c 100%);
+  background-color: white;
   color: #fe769c;
 
 }
@@ -159,7 +159,7 @@ h2 span{
 }
 #QueHacemos{
   color: white;
-  background-color:#fe769c;
+  background: linear-gradient(to bottom,#fe769c 0%,#fe769c 75%,white 75%,white 100%);
 }
 p{
   font-size:2.3vh;
