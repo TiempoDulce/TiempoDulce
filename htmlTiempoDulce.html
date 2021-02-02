@@ -14,9 +14,22 @@
 
     <title>Tiempo Dulce</title>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        setTimeout(function() {
+          $(".desaparece").fadeOut(1500);
+        },800);
+
+        setTimeout(function() {
+          $(".aparece").fadeIn(1500);
+        },1100);
+      });
+    </script>
   </head>
   <body id="cuerpo">
-    <div class="container-fluid justify-content-md-center aling-items-center vh-100" style="margin-bottom:30px;">
+    <div class="desaparece"></div>
+    <div class="container-fluid justify-content-md-center aling-items-center vh-100 aparece" style="display:none; margin-bottom:30px;">
     <div class="row justify-content-md-center" style= "margin-top:30px;">
         <div class="col md-4 text-center">
             <img src="fotos/LogoTiempoDulce.png" width="580px" id="imagen">
