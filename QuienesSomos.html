@@ -33,6 +33,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="jquery-2.1.4.js"></script>
     <title>Acerca de nosotras</title>
+    <script src="skrollr.js"></script>
+	  <script type="text/javascript">
+	     var s = skrollr.init();
+    </script>
     <script>
     // Instantiate Scrolls
     var scroll = new SmoothScroll('a[href*="#"]:not([data-easing])');
@@ -104,23 +108,17 @@
 
 
     <div class="QSN"  style="display:none;">
-    <div class="boton" style="background:white">
-
-
-        <a href="htmlTiempoDulce.html">
-          <button tyle="button"class="btn btn btn-danger sticky-top" data-dismiss="modal" aria-hidden="true" style="margin-top: 25px; margin-left: 25px;border-radius: 10%;background:#FC243C;"> <p style="padding-left: 1vh; padding-right: 1vh; font-size:4.7vh;">&#8689;</p> </button>
-        </a>
 
 
     <section id="QuienesSomos" class="container-fluid justify-content-md-end aling-items-end">
       <div class="container">
         <div class="row justify-content-md-end aling-items-end vh-100">
-          <div class="col col-lg-6" style="margin-top:18vh;">
+          <div class="col col-lg-6" style="margin-top:30vh;">
             <h1 id="encabezado">LAS <strong style="font-size: 6vh;">EXPERIENCIAS</strong> QUE LAS PERSONAS <strong style="font-size: 6vh;">DISFRUTAN</strong>, FORMAN LAS <strong style="font-size: 6vh;">CONEXIONES</strong> MÁS FUERTES ENTRE UNA MARCA Y SU <strong style="font-size: 6vh;">PÚBLICO</strong>.</h1>
 
           </div>
         </div>
-        <div class="row justify-content-md-end aling-items-end">
+        <div class="row justify-content-md-end aling-items-end text-center">
           <div class="col col-lg-12 aling-self-center">
             <a data-scroll href="#QueHacemos">
             <div class="scrolldown">
@@ -133,6 +131,7 @@
         </div>
       </div>
     </section>
+
 
     <section id="QueHacemos">
 
@@ -271,8 +270,9 @@
           </div>
     </section>
 
+
     </div>
-</div>
+
     <script type="text/javascript">
         $(window).on("load",function(){
           $(".loader-wrapper").fadeOut("slow");
