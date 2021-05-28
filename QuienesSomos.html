@@ -60,49 +60,95 @@
       var easeOutQuint = new SmoothScroll('[data-easing="easeOutQuint"]', {easing: 'easeOutQuint'});
     }
     </script>
+    <style>
+      .footer{
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5vh;
+        }
+        @media(max-width: 991px){
+        .footer{
+        padding: 20px 50px;
+        flex-direction: column-reverse;
+        text-align: center;
+        }
+        }
+        .text{
+        color:white;
+        font-size: 1.8vh;
+        }
+    </style>
   </head>
   <body id="cuerpo" style="background:#fe769c">
 
 
   <div class="load" style="color:white;">
-    <div class="container-fluid justify-content-md-center aling-items-center vh-100" style="margin-bottom:30px;">
-    <div class="row justify-content-md-center" style= "margin-top:30px;">
+    <div class="container-fluid justify-content-md-center aling-items-center" style="margin-bottom:30px;">
+
+      <div class="row justify-content-md-center" style= "margin-top:3vh;">
         <div class="col md-4 text-center">
-            <img src="fotos/LogoTiempoDulce.png" width="580px" id="imagen">
+            <img src="fotos/LogoTiempoDulce.png" id="imagen" style="width:25vh;">
+        </div>
+      
+      </div> 
+
+    <div class="row justify-content-md-center" style= "margin:3vh;">
+      <div class="col md-4 text-center">
+          <a href="https://api.whatsapp.com/send?phone=541122400971">
+          <button type="button" id ="boton" class="btn btn-outline-light btn-lg" style= "height: 7.5vh; width: 45vh;
+            font-size: 3.1vh;">WhatsApp</button>
+          </a>
         </div>
     </div>
-    <div class="row justify-content-md-center" style= "margin:50px;">
-        <div class="col md-4 text-center">
-          <a href="https://api.whatsapp.com/send?phone=541122400971">
-            <button type="button" id ="boton" class="btn btn-outline-light w-100 btn-lg" style= "height: 130px;
-            font-size: 50px; ">WhatsApp</button>
+    <div class="row justify-content-md-center" style= "margin:3vh;">
+      <div class="col md-4 text-center">
+          <a href="pdf/Día del padre 2021 Tiempo Dulce.pdf">
+          <button type="button" id ="boton" class="btn btn-outline-light btn-lg" style= "height: 7.5vh; width: 45vh;
+            font-size: 3.1vh;">Dia Del Padre</button>
           </a>
-          </div>
+        </div>
     </div>
-    <div class="row justify-content-md-center" style= "margin:50px;">
-        <div class="col md-4 text-center">
-            <a href="https://tiempodulce.github.io/TiempoDulce/pdf/SanValentin2021.pdf">
-            <button type="button" id ="boton" class="btn btn-outline-light w-100 btn-lg" style= "height: 130px;
-            font-size: 50px; ">San Valentín</button>
-            </a>
-          </div>
-    </div>
-    <div class="row justify-content-md-center" style= "margin:50px;">
-        <div class="col md-4 text-center">
-          <a href="">
-            <button type="button" id ="boton" class="btn btn-outline-light w-100 btn-lg" style= "height: 130px;
-            font-size: 50px; ">Próximamente cátalogo febrero</button>
+    <div class="row justify-content-md-center" style= "margin:3vh;">
+      <div class="col md-4 text-center">
+          <a href="pdf/Día del padre 2021 Descuentos Tiempo Dulce.pdf">
+          <button type="button" id ="boton" class="btn btn-outline-light btn-lg" style= "height: 7.5vh; width: 45vh;
+            font-size: 3.1vh;">Ofertas Dia Del Padre</button>
           </a>
-          </div>
+        </div>
     </div>
-    <div class="row justify-content-md-center" style= "margin:50px;">
-        <div class="col md-4 text-center">
+    <div class="row justify-content-md-center" style= "margin:3vh;">
+      <div class="col md-4 text-center">
           <a href="QuienesSomos.html">
-            <button type="button" id ="boton" class="btn btn-outline-light w-100 btn-lg" style= "height: 130px;
-            font-size: 50px; ">¿Quiénes Somos?</button>
+          <button type="button" id ="boton" class="btn btn-outline-light btn-lg" style= "height: 7.5vh; width: 45vh;
+            font-size: 3.1vh;">¿Quiénes Somos?</button>
           </a>
-          </div>
+        </div>
     </div>
+    <div class="row justify-content-md-center" style= "margin:3vh;">
+      <div class="col md-4 text-center">
+          <a href="pdf/SanValentin2021.pdf">
+          <button type="button" id ="boton" class="btn btn-outline-light btn-lg" style= "height: 7.5vh; width: 45vh;
+            font-size: 3.1vh;">San Valentín</button>
+          </a>
+        </div>
+    </div>
+    <div class="row justify-content-md-center" style= "margin:3vh;">
+      <div class="col md-4 text-center">
+          <a href="">
+          <button type="button" id ="boton" class="btn btn-outline-light btn-lg" style= "height: 7.5vh; width: 45vh;
+            font-size: 3.1vh;">Proximamente catalogo</button>
+          </a>
+        </div>
+    </div>
+
+    <section class="footer" style="margin-right: 3vh;">
+      <p class="text"><a style="color: white;"href="https://api.whatsapp.com/send?phone=541166965813">Diseño y Desarrollo por Diego Simón</a></p>
+      <p class="text" style="font-size: 1.5vh;">© Tiempo Dulce 2021 | Todos los derechos reservados.</p>
+    </section>
+
+
     </div>
   </div>
 
@@ -183,6 +229,8 @@
       <div class="container">
 
         <div class="row justify-content-center align-items-center" style="padding-top:50px; padding-bottom:50px;">
+
+          
           <div class="col col-xxl-6" style="margin-bottom:30px;">
             <h2 class="scrollflow -slide-top -opacity titulo" style="font-size: 4.3vh; margin-bottom:30px;">¿Cómo surgió la idea?</h2> <br>
             <p class="scrollflow -slide-top -opacity letras">
@@ -192,13 +240,16 @@
                 A pesar de seguir estudiando, por un tiempo sentí que me faltaba algo: <strong>desafiarme</strong> a mí misma. Así fue como surgió la idea de crear algo que combinara lo que más <strong>disfruto</strong>: crear, dibujar, decorar, cocinar. De a poco fue apareciendo un logo en mi mente: colores, figuras, dibujos, que luego fui plasmando para poder crear una imagen y más tarde una página de nombre <strong>“Tiempo Dulce”</strong>.  Me di cuenta que era algo para lo que había estado practicando toda mi vida, aunque todavía quede mucho por <strong>aprender</strong>. De esta manera, el <strong>desafío</strong> se convirtió en un <strong>sueño</strong> que crece cada día.
                </p>
           </div>
+
+          
             <div class="col col-xxl-6" style="margin-top:30px; margin-bottom:50px;">
               <div class="text-center">
                 <img src="fotos/LogoTiempoDulce.png" style=" margin:auto; width: 33vh;" class="rounded scrollflow -pop -opacity" >
               </div>
             </div>
           </div>
-        </div>
+
+      </div>
 
           <div id="final">
             <div class="container-fluid" style="color:white; background-color: #fe769c;">
